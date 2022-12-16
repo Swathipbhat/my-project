@@ -12,7 +12,7 @@ import './App.css'
 
 export default function App() {
     return (
-        <Router>
+        <Router basename="my-project">
             <div>
                 <Switch>
                     <Route exact path="/" component={ LandingPage } />
