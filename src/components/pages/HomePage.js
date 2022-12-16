@@ -91,7 +91,7 @@ const HomePage = () => {
 			
 			CONTACT LIST</h1>
             <div class="d-table-cell tar">
-            <Link basename={process.env.PUBLIC_URL}>
+            <Link to="/">
                 <button className="primary-button">Log out</button>
             </Link>
             </div>
