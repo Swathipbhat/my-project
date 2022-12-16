@@ -8,7 +8,7 @@ export default function SignInPage() {
         <div className="text-center m-5-auto">
             <div className="overlay">
          
-            <form action="my-project/home">
+            <form action="/home">
             <div className="con">
     
             <header className="head-form">
@@ -23,8 +23,9 @@ export default function SignInPage() {
       <br/>
 
       <input  className="form-input" type="password" placeholder="Password" id="pwd" name="password" required/>
-      
+      <Link to="/home">
       <button  className="log-in"> Log In </button>
+      </Link>
     </div>
 
     
