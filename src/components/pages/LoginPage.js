@@ -8,7 +8,7 @@ export default function SignInPage() {
         <div className="text-center m-5-auto">
             <div className="overlay">
          
-            <form action="https://Swathipbhat.github.io/my-project/home">
+            <form basename={process.env.PUBLIC_URL} action="/home">
             <div className="con">
     
             <header className="head-form">
