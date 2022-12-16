@@ -15,11 +15,10 @@ export default function App() {
         <Router basename={process.env.PUBLIC_URL}>
             <div>
                 <Switch>
-                    <Route exact path="/" component={ LandingPage } />
+                    <Route exact path="/" component={ HomePage } />
                     <Route path="/login" component={ LoginPage } />
                     <Route path="/register" component={ RegisterPage } />
                     <Route path="/forget-password" component={ ForgetPasswordPage } />
-                    
                     <Route path='/home' component={HomePage}/>
                    
                 </Switch>
